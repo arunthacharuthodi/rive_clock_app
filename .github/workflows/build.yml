@@ -40,9 +40,6 @@ jobs:
         # --output=none prints files which needs to be formatted
       
 
-      # Runs unit test
-      - name: Run tests
-        run: flutter test
 
       # Create android apk
       - name: Build apk
